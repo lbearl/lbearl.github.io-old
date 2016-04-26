@@ -6,6 +6,8 @@ title: PucciThe.Dog - Python/Flask on an RPI
 ## Overview
 Flask is an amazing little Python web micro-framework for those who aren't familiar with it. It allowed me to build out this entire application in about 8 hours of total dev time (including a whole bunch of time just not quite grokking flask-login). The minimal goals I had was to expose a very basic web presence for Pucci (the dog), along with building a very basic puppy cam. Since I had an old Raspberry Pi laying around, I figured that this might be the ideal project to use it for. 
 
+Please feel free to take a look at the [code](https://github.com/lbearl/puccithe.dog)
+
 ## Bill of Materials
 1. [Raspberry Pi](http://www.amazon.com/Raspberry-Pi-756-8308-Motherboard-RASPBRRYPCBA512/dp/B009SQQF9C)
 2. [Microsoft LifeCam NX-3000](http://www.amazon.com/Microsoft-LifeCam-NX-3000-Webcam-Gray/dp/B000TGAVSQ)
@@ -34,6 +36,6 @@ It really is an exciting time to be alive when I can build something on a Core i
 
 The only thing I'm a little nervous about with this setup is whether or not the relatively underpowered RPi really is going to do that well connected to the public internet. That being said, it is pretty heavily firewalled, with only port 80 exposed so its a fairly limited attack surface for any of those internet hooligans.
 
-I hope you enjoyed reading about my very small flask application on a RPi, please reach out to me on [Twitter @lukebearl](https://twitter.com/lukebearl).
+I hope you enjoyed reading about my very small flask application on a RPi, please reach out to me on [Twitter @lukebearl](https://twitter.com/lukebearl) or head over to [Github](https://github.com/lbearl/puccithe.dog).
 
 [sqlpicture]: /public/images/puccithedog/sql.png
